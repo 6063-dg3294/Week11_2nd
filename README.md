@@ -19,11 +19,18 @@ After I wrapped up the code, the major problem remained to be wiring. I had to t
   
 
 The correct steps:
+  
 NO STATE (red blink)
+  
 Press button 1 (b0c)
+  
 FIRST STATE
+  
 Press button 2 (b1c)
+  
 SECOND STATE
+  
 Turn potentiometer to the right
+  
 SUCCESS STATE
 
