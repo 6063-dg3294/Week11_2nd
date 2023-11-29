@@ -16,5 +16,14 @@ After I got home, I began looking at the clicky example. In the first round, for
 ![image description](./6.png)
 
 After I wrapped up the code, the major problem remained to be wiring. I had to test again for what went wrong and re-position the chip after debugging. Leaving 4 holes for the crowded wiring pins helped solve the situation. I re-read the examples and check online coding a lot for debugging the problem of not jumping to State 2 after pressing the second button. Solved by adding a debouncing time. 
+  
 
+The correct steps:
+NO STATE (red blink)
+Press button 1 (b0c)
+FIRST STATE
+Press button 2 (b1c)
+SECOND STATE
+Turn potentiometer to the right
+SUCCESS STATE
 
